@@ -56,8 +56,8 @@
       saldo -= valor;
     }
 
-    saldoElement.textContent = `Saldo: $${saldo}`;
-    valorElement.textContent = `Valor: $${valor}`;
+    saldoElement.textContent = `$${saldo}`;
+    valorElement.textContent = `$${valor}`;
   }
 
   function blinkLine() {
